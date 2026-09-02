@@ -1,6 +1,6 @@
 {
   "name": "worca-models-ollama",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": { "worca-cc-api": ">=1" },
   "models": [
     {
@@ -10,7 +10,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "deepseek-v4-flash"
+        "ANTHROPIC_MODEL": "deepseek-v4-flash:0731-cloud"
       }
     },
     {
@@ -20,7 +20,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "deepseek-v4-pro"
+        "ANTHROPIC_MODEL": "deepseek-v4-pro:0813-cloud"
       }
     },
     {
@@ -30,7 +30,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "gemma4"
+        "ANTHROPIC_MODEL": "gemma4:31b-cloud"
       }
     },
     {
@@ -40,7 +40,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "glm-5.3"
+        "ANTHROPIC_MODEL": "glm-5.3:cloud"
       }
     },
     {
@@ -50,7 +50,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "glm-5.3-flash"
+        "ANTHROPIC_MODEL": "glm-5.3-flash:cloud"
       }
     },
     {
@@ -60,7 +60,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "glm-5.2"
+        "ANTHROPIC_MODEL": "glm-5.2:cloud"
       }
     },
     {
@@ -70,7 +70,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "glm-5.1"
+        "ANTHROPIC_MODEL": "glm-5.1:cloud"
       }
     },
     {
@@ -80,7 +80,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "gpt-oss:120b"
+        "ANTHROPIC_MODEL": "gpt-oss:120b-cloud"
       }
     },
     {
@@ -90,7 +90,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "gpt-oss:20b"
+        "ANTHROPIC_MODEL": "gpt-oss:20b-cloud"
       }
     },
     {
@@ -100,7 +100,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "kimi-k3"
+        "ANTHROPIC_MODEL": "kimi-k3:cloud"
       }
     },
     {
@@ -110,7 +110,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "kimi-k2.7-code"
+        "ANTHROPIC_MODEL": "kimi-k2.7-code:cloud"
       }
     },
     {
@@ -120,7 +120,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "kimi-k2.6"
+        "ANTHROPIC_MODEL": "kimi-k2.6:cloud"
       }
     },
     {
@@ -130,7 +130,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "minimax-m3"
+        "ANTHROPIC_MODEL": "minimax-m3:cloud"
       }
     },
     {
@@ -140,7 +140,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "minimax-m2.7"
+        "ANTHROPIC_MODEL": "minimax-m2.7:cloud"
       }
     },
     {
@@ -150,7 +150,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "mistral-large-3"
+        "ANTHROPIC_MODEL": "mistral-large-3:675b-cloud"
       }
     },
     {
@@ -160,7 +160,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "nemotron-3-nano"
+        "ANTHROPIC_MODEL": "nemotron-3-nano:30b-cloud"
       }
     },
     {
@@ -170,7 +170,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "nemotron-3-super"
+        "ANTHROPIC_MODEL": "nemotron-3-super:cloud"
       }
     },
     {
@@ -180,7 +180,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "nemotron-3-ultra"
+        "ANTHROPIC_MODEL": "nemotron-3-ultra:cloud"
       }
     },
     {
@@ -190,7 +190,7 @@
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "qwen3.5:397b"
+        "ANTHROPIC_MODEL": "qwen3.5:397b-cloud"
       }
     }
   ],
