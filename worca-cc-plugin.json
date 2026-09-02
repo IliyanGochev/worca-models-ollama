@@ -1,6 +1,6 @@
 {
   "name": "worca-models-ollama",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "engines": { "worca-cc-api": ">=1" },
   "models": [
     {
