@@ -1,16 +1,16 @@
 {
   "name": "worca-models-ollama",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": { "worca-cc-api": ">=1" },
   "models": [
     {
-      "id": "deepseek-v4-flash",
-      "label": "DeepSeek V4 Flash (Ollama)",
-      "cost": { "perMtok": { "input": 0.44, "output": 1.32, "cacheRead": 0.014 } },
+      "id": "deepseek-v4-1-flash",
+      "label": "DeepSeek V4.1 Flash (Ollama)",
+      "cost": { "perMtok": { "input": 0.30, "output": 1.20, "cacheRead": 0.006 } },
       "env": {
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "deepseek-v4-flash:0731-cloud"
+        "ANTHROPIC_MODEL": "deepseek-v4.1-flash:1017-cloud"
       }
     },
     {
@@ -61,16 +61,6 @@
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
         "ANTHROPIC_MODEL": "glm-5.2:cloud"
-      }
-    },
-    {
-      "id": "glm-5-1",
-      "label": "GLM 5.1 (Ollama)",
-      "cost": { "perMtok": { "input": 1.00, "output": 3.20, "cacheRead": 0.20 } },
-      "env": {
-        "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
-        "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "glm-5.1:cloud"
       }
     },
     {
@@ -134,6 +124,16 @@
       }
     },
     {
+      "id": "minimax-m3-1-flash",
+      "label": "MiniMax M3.1 Flash (Ollama)",
+      "cost": { "perMtok": { "input": 0.15, "output": 0.60, "cacheRead": 0.015 } },
+      "env": {
+        "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
+        "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
+        "ANTHROPIC_MODEL": "minimax-m3.1-flash:cloud"
+      }
+    },
+    {
       "id": "minimax-m2-7",
       "label": "MiniMax M2.7 (Ollama)",
       "cost": { "perMtok": { "input": 0.30, "output": 1.20, "cacheRead": 0.06 } },
@@ -151,6 +151,16 @@
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
         "ANTHROPIC_MODEL": "mistral-large-3:675b-cloud"
+      }
+    },
+    {
+      "id": "mistral-large-4",
+      "label": "Mistral Large 4 (Ollama)",
+      "cost": { "perMtok": { "input": 1.36, "output": 4.18, "cacheRead": 0.14 } },
+      "env": {
+        "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
+        "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
+        "ANTHROPIC_MODEL": "mistral-large-4:cloud"
       }
     },
     {
@@ -181,16 +191,6 @@
         "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
         "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
         "ANTHROPIC_MODEL": "nemotron-3-ultra:cloud"
-      }
-    },
-    {
-      "id": "qwen3-5-397b",
-      "label": "Qwen 3.5 397B (Ollama)",
-      "cost": { "perMtok": { "input": 0.60, "output": 3.60, "cacheRead": 0.60 } },
-      "env": {
-        "ANTHROPIC_BASE_URL": { "secret": "ollama-base-url" },
-        "ANTHROPIC_AUTH_TOKEN": { "secret": "ollama-api-key" },
-        "ANTHROPIC_MODEL": "qwen3.5:397b-cloud"
       }
     }
   ],
